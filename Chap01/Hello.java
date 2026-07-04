@@ -5,10 +5,23 @@ class Hello {
 	
 	public static void main (String [] args) {
 	//上面这部分是“固定语句”
-//		System.out.println("第一个 Java 程序。");
+		System.out.println("第一个 Java 程序。");
 		//使用双引号括起来的字符序列，称为：字符串常量 string literal，所谓常量就是“按字符原样”的意思
 		System.out.println("输出到画面上特殊符号：。！@#。，¥%&*（）——+=-～· ");
 		//双引号是表示字符串常量开始和结束的符号，不会被显示，甚至其他符号也不被显示
+		/*
+		多行注释测试
+		*/
+		
+		/**
+		文档化注释
+		*/
+		
+		/*
+		// 这样注释是可以的
+		*/
+		
+		// /* 这样注释也可以 */
 	}
 	// 从 public 这行往下，是 main 方法的声明
 }
